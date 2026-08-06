@@ -7,7 +7,7 @@
       name="description"
       content="Extreme High School — empowering students for a brighter future."
     />
-    <title>Extreme High School | Home</title>
+    <title>Extreme High School | Gallery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +21,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
   </head>
 
   <body>
@@ -41,10 +41,10 @@
     <!-- Navigation Bar -->
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="index.html"
+        <a class="brand" href="../index.html"
           ><span class="brand-mark"
             ><img
-              src="assets/images/extreme-logo.webp"
+              src="../assets/images/extreme-logo.webp"
               alt="Extreme High School Logo" /></span
           ><span>EXTREME <b>HIGH SCHOOL NAMAYUMBA</b></span></a
         ><button
@@ -55,10 +55,10 @@
           ☰
         </button>
         <nav aria-label="Main navigation">
-          <a href="#">Home</a>
-          <a href="about.html">About</a>
-          <a class="active" href="admissions.html">Admissions</a>
-          <a href="gallery.html">Gallery</a>
+          <a href="../index.html">Home</a>
+          <a href="/about/">About</a>
+          <a href="/admissions/">Admissions</a>
+          <a class="active" href="">Gallery</a>
           <a href="news.html">News</a>
           <a href="staff.html">Staff</a>
           <a href="contact.html">Contact</a>
@@ -68,88 +68,68 @@
     <main>
       <section class="page-hero">
         <div class="container">
-          <div class="breadcrumbs">HOME / ADMISSIONS</div>
-          <h1>Your future starts here.</h1>
+          <div class="breadcrumbs">Extreme High School Gallery</div>
+          <h1>Moments of Impact.</h1>
           <p>
-            We are delighted you are considering Extreme High School for your
-            child.
+            A glimpse into the energy, curiosity and community that define life
+            at Extreme.
           </p>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <div class="section-heading center">
-            <p class="eyebrow">Simple, supportive admissions</p>
-            <h2>How to apply</h2>
+          <div class="gallery-controls">
+            <button class="active" data-filter="all">All moments</button
+            ><button data-filter="academics">Academics</button
+            ><button data-filter="sports">Sports</button
+            ><button data-filter="events">Events</button
+            ><button data-filter="campus">Campus</button
+            ><button data-filter="graduation">Graduation</button>
           </div>
-          <div class="steps">
-            <article class="step">
-              <h3>Make an enquiry</h3>
-              <p>Speak with our admissions team or arrange a campus visit.</p>
-            </article>
-            <article class="step">
-              <h3>Submit application</h3>
-              <p>
-                Complete the form and provide the required supporting documents.
-              </p>
-            </article>
-            <article class="step">
-              <h3>Assessment</h3>
-              <p>
-                Your child attends a friendly placement assessment and
-                interview.
-              </p>
-            </article>
-            <article class="step">
-              <h3>Welcome aboard</h3>
-              <p>Receive an offer and join our new family orientation.</p>
-            </article>
+          <div class="gallery-grid">
+            <figure data-category="academics">
+              <img
+                src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=700&q=80"
+                alt="Students in science lab"
+              />
+              <figcaption>Science in action</figcaption>
+            </figure>
+            <figure data-category="sports">
+              <img
+                src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=700&q=80"
+                alt="School athletics"
+              />
+              <figcaption>House athletics</figcaption>
+            </figure>
+            <figure data-category="events">
+              <img
+                src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=700&q=80"
+                alt="School event"
+              />
+              <figcaption>Community celebration</figcaption>
+            </figure>
+            <figure data-category="campus">
+              <img
+                src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=700&q=80"
+                alt="School building"
+              />
+              <figcaption>Our campus</figcaption>
+            </figure>
+            <figure data-category="graduation">
+              <img
+                src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=700&q=80"
+                alt="Graduates"
+              />
+              <figcaption>Graduation day</figcaption>
+            </figure>
+            <figure data-category="academics">
+              <img
+                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80"
+                alt="Classroom learning"
+              />
+              <figcaption>Learning together</figcaption>
+            </figure>
           </div>
-        </div>
-      </section>
-      <section class="section soft-bg">
-        <div class="container content-grid">
-          <article class="prose">
-            <p class="eyebrow">What you need</p>
-            <h2>Admission requirements</h2>
-            <ul>
-              <li>Completed application form</li>
-              <li>Copy of birth certificate</li>
-              <li>Most recent school report forms</li>
-              <li>Two passport-size photographs</li>
-              <li>Transfer letter where applicable</li>
-            </ul>
-            <h2>Fees overview</h2>
-            <p>
-              Our fees are structured to deliver exceptional value and cover
-              tuition, learning resources, co-curricular activities and student
-              support. A detailed current fee schedule is available from the
-              admissions office.
-            </p>
-            <a class="btn btn-primary" href="contact.html"
-              >Request fee schedule →</a
-            >
-          </article>
-          <aside class="sidebar">
-            <h3>Downloads</h3>
-            <a href="#">↓ Application form (PDF)</a
-            ><a href="#">↓ Fee schedule (PDF)</a
-            ><a href="#">↓ Admissions guide (PDF)</a>
-            <div class="faq">
-              <h3>Questions?</h3>
-              <details>
-                <summary>When can I apply?</summary>
-                <p>
-                  Applications are accepted throughout the year, subject to
-                  availability.
-                </p>
-              </details>
-              <details>
-                <summary>Do you offer boarding?</summary>
-                <p>Yes, safe and caring boarding is available from Form 1.</p>
-              </details>
-            </div>
-          </aside>
         </div>
       </section>
     </main>
@@ -157,10 +137,10 @@
     <footer class="footer">
       <div class="container footer-grid">
         <div>
-          <a class="brand footer-brand" href="index.html">
+          <a class="brand footer-brand" href="../index.html">
             <span
               ><img
-                src="assets/images/extreme-logo.webp"
+                src="../assets/images/extreme-logo.webp"
                 width="70px"
                 alt="" /></span
             ><span>EXTREME <b>HIGH SCHOOL NAMAYUMBA</b></span></a
@@ -172,11 +152,11 @@
         </div>
         <div>
           <h4>Quick links</h4>
-          <a href="#">About Us</a>
-          <a href="#">Academics</a>
-          <a href="#">Admissions</a>
-          <a href="#">Gallery</a>
-          <a href="#">Fees Structure</a>
+          <a href="../index.html">Home</a>
+          <a href="/about/">About Us</a>
+          <a href="/admissions/">Admissions</a>
+          <a href="#">Staff</a>
+          <a href="">Gallery</a>
         </div>
         <div>
           <h4>Contact</h4>
@@ -212,6 +192,6 @@
     </footer>
 
     <button class="to-top" aria-label="Back to top">↑</button>
-    <script src="assets/script.js"></script>
+    <script src="../assets/script.js"></script>
   </body>
 </html>

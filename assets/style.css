@@ -11,7 +11,8 @@
     --shadow:0 12px 35px rgba(8,42,75,.1)
 }
 * {
-    box-sizing:border-box
+    box-sizing:border-box;
+    scroll-margin-top: 100px;
 }
 html {
     scroll-behavior:smooth
@@ -631,7 +632,7 @@ footer a:hover {
     visibility:visible
 }
 .page-hero {
-    background:linear-gradient(90deg,rgba(5,30,54,.92),rgba(5,30,54,.55)),url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1800&q=80') center/cover;
+    background:linear-gradient(90deg,rgba(5,30,54,.92),rgba(5,30,54,.55)),url('https://i.ytimg.com/vi/vnjCgg0Q6EY/maxresdefault.jpg') center/cover;
     color:#fff;
     padding:90px 0
 }
