@@ -7,7 +7,7 @@
       name="description"
       content="Extreme High School — empowering students for a brighter future."
     />
-    <title>Extreme High School | Home</title>
+    <title>Extreme High School | Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +21,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
   </head>
 
   <body>
@@ -41,10 +41,10 @@
     <!-- Navigation Bar -->
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="index.html"
+        <a class="brand" href="../index.html"
           ><span class="brand-mark"
             ><img
-              src="assets/images/extreme-logo.webp"
+              src="../assets/images/extreme-logo.webp"
               alt="Extreme High School Logo" /></span
           ><span>EXTREME <b>HIGH SCHOOL NAMAYUMBA</b></span></a
         ><button
@@ -55,13 +55,13 @@
           ☰
         </button>
         <nav aria-label="Main navigation">
-          <a href="#">Home</a>
-          <a href="about.html">About</a>
-          <a href="admissions.html">Admissions</a>
-          <a href="gallery.html">Gallery</a>
-          <a href="news.html">News</a>
-          <a href="staff.html">Staff</a>
-          <a class="active" href="contact.html">Contact</a>
+          <a href="../index.html">Home</a>
+          <a href="/about/">About</a>
+          <a href="/admissions/">Admissions</a>
+          <a href="/gallery/">Gallery</a>
+          <a href="">News</a>
+          <a href="">Staff</a>
+          <a class="active" href="/contact/">Contact</a>
         </nav>
       </div>
     </header>
@@ -72,7 +72,7 @@
           <h1>We’d love to hear from you.</h1>
           <p>
             Whether you are ready to apply, arrange a visit or simply have a
-            question, our team is here to help.
+            question, our staff is here to help.
           </p>
         </div>
       </section>
@@ -80,26 +80,20 @@
         <div class="container contact-grid">
           <form
             class="contact-form"
-            onsubmit="
-              event.preventDefault();
-              this.querySelector('button').textContent =
-                'Message sent — thank you!';
-              this.reset();
-            "
+            action="https://api.web3forms.com/submit"
+            method="POST"
           >
+            <input
+              type="hidden"
+              name="access_key"
+              value="17ad3b73-0b8b-459d-97c5-0f11b8b282e0"
+            />
+            >
             <p class="eyebrow">Send a message</p>
             <h2>Let’s start a conversation.</h2>
             <div class="form-grid">
               <label
-                >First name<input
-                  required
-                  type="text"
-                  placeholder="Your first name" /></label
-              ><label
-                >Last name<input
-                  required
-                  type="text"
-                  placeholder="Your last name"
+                >Names<input required type="text" placeholder="Your name(s)"
               /></label>
             </div>
             <div class="form-grid">
@@ -109,7 +103,7 @@
                   type="email"
                   placeholder="you@email.com" /></label
               ><label
-                >Phone number<input type="tel" placeholder="+254 …"
+                >Phone number<input type="tel" placeholder="07123456789"
               /></label>
             </div>
             <label
@@ -128,19 +122,25 @@
               <p>
                 <strong>Campus</strong><br />45 Excellence Drive, Nairobi, Kenya
               </p>
-              <p>
-                <strong>Phone</strong><br />+254 700 123 456<br />+254 711 987
-                654
-              </p>
-              <p><strong>Email</strong><br />info@extremehigh.ac.ke</p>
+              <p><strong>Phone</strong><br />256 754 362 400<br /></p>
+              <p><strong>Email</strong><br />info@extremeschool.com</p>
               <p>
                 <strong>Office hours</strong><br />Monday–Friday, 8:00 AM–5:00
                 PM
               </p>
               <div class="socials">
-                <a href="#" aria-label="Facebook">f</a
-                ><a href="#" aria-label="Instagram">◎</a
-                ><a href="#" aria-label="LinkedIn">in</a>
+                <a href="#" target="_blank" aria-label="Instagram">
+                  <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="#" target="_blank" aria-label="Instagram">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" target="_blank" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" target="_blank" aria-label="LinkedIn">
+                  <i class="fa-brands fa-square-linkedin"></i>
+                </a>
               </div>
             </div>
             <iframe
@@ -160,10 +160,10 @@
     <footer class="footer">
       <div class="container footer-grid">
         <div>
-          <a class="brand footer-brand" href="index.html">
+          <a class="brand footer-brand" href="../index.html">
             <span
               ><img
-                src="assets/images/extreme-logo.webp"
+                src="../assets/images/extreme-logo.webp"
                 width="70px"
                 alt="" /></span
             ><span>EXTREME <b>HIGH SCHOOL NAMAYUMBA</b></span></a
@@ -175,10 +175,10 @@
         </div>
         <div>
           <h4>Quick links</h4>
-          <a href="#">About Us</a>
-          <a href="#">Academics</a>
-          <a href="#">Admissions</a>
-          <a href="#">Gallery</a>
+          <a href="../index.html">Home</a>
+          <a href="/about/">About Us</a>
+          <a href="/admissions/">Admissions</a>
+          <a href="/gallery/">Gallery</a>
           <a href="#">Fees Structure</a>
         </div>
         <div>
